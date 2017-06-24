@@ -1,0 +1,86 @@
+Comments for self-test -------- Mon Feb 6, 2017 at 17:36:20 EST
+Checking for automatically generated (illegal) files ... none (OK)
+Building the executable with "make -B" ... succeeded
+
+Testing ba with test files in /home/charan/Documents/Compiler/test:
+
+Running ba on test1.s; output sent to test1.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test1.out exists; comparing with sol'n file with "diff":
+    diff test1.out /home/charan/Documents/Compiler/test/test1.out
+  [output files match -- OK]
+Running ba on test2.s; output sent to test2.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test2.out exists; comparing with sol'n file with "diff":
+    diff test2.out /home/charan/Documents/Compiler/test/test2.out
+  [output files match -- OK]
+Running ba on test3.s; output sent to test3.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test3.out exists; comparing with sol'n file with "diff":
+    diff test3.out /home/charan/Documents/Compiler/test/test3.out
+  [output files match -- OK]
+Running ba on test4.s; output sent to test4.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test4.out exists; comparing with sol'n file with "diff":
+    diff test4.out /home/charan/Documents/Compiler/test/test4.out
+  [output files match -- OK]
+Running ba on test5.s; output sent to test5.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test5.out exists; comparing with sol'n file with "diff":
+    diff test5.out /home/charan/Documents/Compiler/test/test5.out
+  [output files match -- OK]
+Running ba on test6.s; output sent to test6.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test6.out exists; comparing with sol'n file with "diff":
+    diff test6.out /home/charan/Documents/Compiler/test/test6.out
+  [output files match -- OK]
+Running ba on test7.s; output sent to test7.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test7.out exists; comparing with sol'n file with "diff":
+    diff test7.out /home/charan/Documents/Compiler/test/test7.out
+  [output files match -- OK]
+Running ba on test8.s; output sent to test8.out ... finished normally
+  Standard error output:
+  vvvvv
+    
+  ^^^^^
+  test8.out exists; comparing with sol'n file with "diff":
+    diff test8.out /home/charan/Documents/Compiler/test/test8.out
+  [output files match -- OK]
+Running ba on test9.s; output sent to test9.out ... finished normally
+  Standard error output:
+  vvvvv
+    # 5 label already defined and cannot be defined again
+     ST[ 1 ] = $foo , 101 
+    # 8 Identifier not allocated and cannot be used
+  ^^^^^
+  test9.out exists; comparing with sol'n file with "diff":
+    diff test9.out /home/charan/Documents/Compiler/test/test9.out
+  [output files match -- OK]
+Cleaning up ... done
+######################################################
+Summary for self-test:
+Your current score is 100 percent, not counting error reporting.
+Your error reporting will be checked manually.
+######################################################
